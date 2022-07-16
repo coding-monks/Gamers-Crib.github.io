@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+}
+.catTitle{
+    margin: 1rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
+.highlightedWords{
+    color: rgb(144, 25, 25);
+    font-weight: 600;
+}
+#trendingGames{
+    margin: 1rem;
+}
+#trendingGames .container-fluid{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #161a1d;
+    border-radius: 0.5rem;
+}
+#trendingGames .row{
+    border: 1px solid rgb(0, 0, 0);
+}
+#trendingGames .col{
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transition: all 0.5s;
+    padding: 0;
+    /* box-shadow: -2px 4px rgb(159, 159, 159); */
+}
+#trendingGames .col .container{
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    z-index: 2;
+    transition: all 0.25s;
+}
+#trendingGames img{
+    width: 100%;
+    transition: all 0.5s;
+    z-index: 1;
+}
+#trendingGames .col:hover{
+    border-radius: 0.5rem;
+    transform: scale(0.96);
+}
+#trendingGames .col:hover img{
+    transform: scale(1.3);
+}
+#trendingGames .col:hover .container{
+    opacity: 1;
+    background-color: #161a1dae;
+}
