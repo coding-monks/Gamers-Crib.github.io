@@ -56,3 +56,58 @@ body{
     opacity: 1;
     background-color: #161a1dae;
 }
+
+#YT_videos .row div{
+    margin: 10px;
+    padding: 0%;
+    
+
+}
+
+#YT{
+    margin: 10px;
+}
+
+#YT_videos{
+    background: #24262B;
+    border-radius: 10px;
+
+}
+#YT_title{
+   
+    color: white;
+}
+
+#YT_videos .row div a img{
+    max-width: 61%;
+    height: 100%;
+    margin-left: 49px;
+}
+
+#channels{
+    margin: 12px;
+    background:#24262B;
+}
+.size{
+    width: 20vw;
+    height: 40vh;
+}
+#coms{
+    color: white;
+   
+}
+.pos{
+    position: relative;
+    left: 22px;
+    font-size: 2rem;
+
+}
+
+.expand{
+    transition: all 0.5s;
+  
+}
+.expand:hover{
+    transform: scale(1.5);
+    z-index: 1;
+}
