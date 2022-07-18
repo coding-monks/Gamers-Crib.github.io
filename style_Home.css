@@ -110,6 +110,16 @@ body{
         text-align: center;
         font-size: 1.8rem !important;
     }
+    .navbar{
+        position: sticky !important;
+        top: 0;
+    }
+    /* .collapse{
+        width: 50% !important;
+    } */
+    #navbarNav{
+        background-color: #2a2a2ae7;
+    }
     #trendingGames p{
         font-size: 70%;
     }
