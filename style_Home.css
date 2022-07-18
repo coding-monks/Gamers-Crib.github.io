@@ -12,25 +12,9 @@ body{
     /* color: rgb(23, 145, 189); */
     font-weight: 600;
 }
-.moreContent{
-    font-size: 1.2rem;
-    padding: 0.3rem;
-    padding-top: 0.5rem;
-    opacity: 0;
-    transition: all 0.5s;
+#trendingGames .slideGames{
+    position: relative;
 }
-.titleContainer{
-    display: flex;
-}
-.titleContainer:hover .moreContent{
-    opacity: 1;
-}
-.moreContent:hover{
-    /* color: rgb(8, 79, 192); */
-    color: rgb(90, 90, 90);
-    
-}
-
 #trendingGames .mainBlock{
     /* border: 1px solid white; */
     display: flex;
@@ -38,7 +22,7 @@ body{
     justify-content: space-evenly;
     align-items: center;
     width: auto;
-    height: 24rem;
+    height: auto;
     margin: 0.5rem;
     border-radius: 0.5rem;
     background-color: #161a1d;
@@ -47,8 +31,8 @@ body{
 }
 #trendingGames .gameImgHolder{
     /* border: 1px solid red; */
-    width: 17rem;
-    height: 23rem;
+    width: 19.3%;
+    height: auto;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     border-radius: 0.5rem;
@@ -88,11 +72,104 @@ body{
 }
 #trendingGames .gameImgHolder:hover .gameImgContent{
     opacity: 1;
-    transform: translate(0,-3rem);
+    transform: translate(0,-25%);
 }
-#trendingGames .catTitle{
-    margin-right: 0;
+#trendingGames .hiddenContainer{
+    display: none;
+    transition: all;
 }
+#gameSliderButton1{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#gameSliderButton2{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#trendingGames .slideButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.400);
+    color: white;
+    height: 100%;
+    width: 8%;
+    opacity: 0;
+    box-shadow: 0 0 5px 10px rgba(0, 0, 0, 0.400);
+    transition: all 0.4s;
+}
+#trendingGames .slideButton:hover{
+    opacity: 1;
+}
+@media (min-width: 0px) and (max-width: 550px) {
+    .catTitle{
+        text-align: center;
+        font-size: 1.8rem !important;
+    }
+    #trendingGames p{
+        font-size: 70%;
+    }
+    #trendingGames .mainBlock{
+        background-color: black;
+        height: auto;
+        border: none;
+    }
+    #trendingGames .gameImgHolder{
+        width: 45%;
+        height: auto;
+        border-radius: 0.3rem;
+    }
+    #trendingGames .game5{
+        display: none;
+    }
+}
+@media(min-width: 550px) and (max-width:900px) {
+    .catTitle{
+        text-align: center;
+    }
+    #trendingGames p{
+        font-size: 70%;
+    }
+    #trendingGames .mainBlock{
+        background-color: #161a1d;
+        height: auto;
+        border: none;
+    }
+    #trendingGames .gameImgHolder{
+        width: 30%;
+        height: auto;
+    }
+    #trendingGames .game4{
+        display: none;
+    }
+    #trendingGames .game5{
+        display: none;
+    }
+}
+@media(min-width: 900px) and (max-width:1200px) {
+    .catTitle{
+        text-align: left;
+    }
+    #trendingGames p{
+        font-size: 100%;
+    }
+    #trendingGames .mainBlock{
+        background-color: #161a1d;
+        height: auto;
+        border: none;
+    }
+    #trendingGames .gameImgHolder{
+        width: 23.7%;
+        height: auto;
+    }
+    #trendingGames .game5{
+        display: none;
+    }
+}
+
+/* Divyanshu Jha */
 
 #YT_videos .row div{
     margin: 10px;
