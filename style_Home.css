@@ -683,7 +683,7 @@ body{
 }
 
 .equipmentscontent{
-    background-image: url(/images/mainbg.jpg);
+    background-image: url(Images/mainbg.jpg);
     background-size: cover;
     padding: 1%;
 }
