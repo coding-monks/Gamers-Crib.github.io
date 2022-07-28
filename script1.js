@@ -1,4 +1,4 @@
-//jugad for changing slides
+//Homepage Event Slider
 const slide1 = document.querySelector('#slide1');
 const slide2 = document.querySelector('#slide2');
 document.querySelector('#gameSliderButton1').addEventListener('click',function(){
@@ -19,7 +19,8 @@ slide1.addEventListener("drag",function(){
     slide2.classList.toggle('hiddenContainer');
 })
 
-//community channels
+
+//Home page community channels
 var count=1;
 document.querySelector("#show_more1").addEventListener("click",function(){
     if(count==1){

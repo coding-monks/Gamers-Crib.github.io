@@ -1,0 +1,766 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- BOOTSTRAP only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <!-- FONT AWESOME ICONS -->
+    <script src="https://kit.fontawesome.com/3066047997.js" crossorigin="anonymous"></script>
+    <!-- CSS ONLY -->
+    <link rel="stylesheet" href="exploreStyle.css">
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <title>Gamers'Crib/explore</title>
+  </head>
+  <body>
+
+    <!-- Header - Navbar Section -->
+
+    <section id="patya-header">
+
+
+    <section class="header">
+      <div class="menu-bar">
+          <nav class="navbar navbar-expand-lg navbar-light">
+              <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html">GamersCrib</a>
+                  <!-- <div class="search-box ">
+                      <form action="">
+                          <input type="text" name="Search" id="srch" placeholder="Search">
+                          <button type="submit"><i class="fa fa-search"></i></button>
+                      </form>
+                  </div> -->
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <i class="fa fa-solid fa-bars-staggered"></i>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav ms-auto">
+                          <li class="nav-item" id = "exploreNav">
+                              <a class="nav-link" href="explore.html">Explore</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="">Store</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="">News</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="">My Profile</a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+              </nav>
+            </div>
+        </div> 
+    </section>
+
+    <section id="navBar2">
+        <div class="contentHolder">
+            <div class="items titleGlow" id="gameTitle">Games</div>
+            <div class="items" id="communityTitle">Community</div>
+            <div class="items" id="trailerTitle">Trailers</div>
+        </div>
+    </section>
+    
+    <section class="contentMainContainer" id="games">
+        <div class="subContainer" id="filter">
+            <div class="filterContent" title>
+                <h2 class="filterCatTitle">Categories</h2>
+            </div>
+            <div class="filterContent selectedOption" top>
+                <h2 class="filterCatTitle" action>Action</h2>
+            </div>
+            <div class="filterContent">
+                <h2 class="filterCatTitle">Adventure</h2>
+            </div>
+            <div class="filterContent">
+                <h2 class="filterCatTitle">Role-playing</h2>
+            </div>
+            <div class="filterContent">
+                <h2 class="filterCatTitle">Simulation</h2>
+            </div>
+            <div class="filterContent">
+                <h2 class="filterCatTitle">Strategy</h2>
+            </div>
+            <div class="filterContent" bottom>
+                <h2 class="filterCatTitle">Sports</h2>
+            </div>
+        </div>
+        <div class="subContainer detail" id="action">
+            <div class="catSubTitles">
+                <h3>First Person Shooter</h3>
+            </div>
+            <div class="gameRow">
+                <div class="gameContainer">
+                    <img src="exploreGames/csgo.png" alt="">
+                    <h4 class="gameTitle">Counter Strike: Global Offensive</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/destiny2.png" alt="">
+                    <h4 class="gameTitle">Destiny 2</h4>
+                </div>
+                <div class="gameContainer">
+                    <!-- <img src="exploreGames/pubg.png" alt=""> -->
+                    <!-- <img src="exploreGames/pubgB.jpg" alt=""> -->
+                    <img src="exploreGames/apex.jpeg" alt="">
+                    <h4 class="gameTitle">Apex Legends</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/codops2.jpg" alt="">
+                    <h4 class="gameTitle">Call of Duty: Black Ops 2</h4>
+                </div>
+            </div>
+            <div class="catSubTitles">
+                <h3>Third Person Shooter</h3>
+            </div>
+            <div class="gameRow">
+                <div class="gameContainer">
+                    <img src="exploreGames/rdr2.jpeg" alt="">
+                    <h4 class="gameTitle">Red Dead Redemption 2</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/gta5.jpg" alt="">
+                    <h4 class="gameTitle">Grand Theft Auto 5</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/tombRaider.jpg" alt="">
+                    <h4 class="gameTitle">Tomb Raider</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/pubgB.jpg" alt="">
+                    <h4 class="gameTitle">Pubg Battlegrounds</h4>
+                </div>
+            </div>
+            <div class="catSubTitles">
+                <h3>Platformers and Runners</h3>
+            </div>
+            <div class="gameRow">
+                <div class="gameContainer">
+                    <img src="exploreGames/jedi.jpg" alt="">
+                    <h4 class="gameTitle">Star Wars Jedi: Fallen Order</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/itTakesTwo.jpeg" alt="">
+                    <h4 class="gameTitle">It Takes Two</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/cuphead.jpeg" alt="" style="filter: saturate(75%);">
+                    <h4 class="gameTitle">Cuphead</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/humanFallFlat.jpeg" alt="">
+                    <h4 class="gameTitle">Human Fall Flat</h4>
+                </div>
+            </div>
+            <div class="catSubTitles">
+                <h3>Hack & Slash</h3>
+            </div>
+            <div class="gameRow">
+                <div class="gameContainer">
+                    <img src="exploreGames/godOfWar.jpeg" alt="">
+                    <h4 class="gameTitle">God of War</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/naraka.jpeg" alt="">
+                    <h4 class="gameTitle">Naraka</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/pathOfExile.jpeg" alt="">
+                    <h4 class="gameTitle">Path of Exile</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/sekiro.jpeg" alt="">
+                    <h4 class="gameTitle">Sekiro: Shadows Die Twice</h4>
+                </div>
+            </div>
+            <div class="catSubTitles">
+                <h3>Fighting & Martial Arts</h3>
+            </div>
+            <div class="gameRow">
+                <div class="gameContainer">
+                    <img src="exploreGames/turtles.jpg" alt="">
+                    <h4 class="gameTitle">Teenage Mutant Ninja Turtles: Shredder's Revenge</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/finalFantasy7.jpeg" alt="">
+                    <h4 class="gameTitle">Final Fantasy 7 Remake</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/dragonBallFighterz.jpeg" alt="">
+                    <h4 class="gameTitle">Dragon Ball FighterZ</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/tekken7.jpeg" alt="">
+                    <h4 class="gameTitle">Tekken 7</h4>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="subContainer detail hiddenItem" id="adv">
+            <div class="catSubTitles">
+                <h3>Adventure RPG</h3>
+            </div>
+            <div class="gameRow">
+                <div class="gameContainer">
+                    <img src="exploreGames/skyrim5.jpeg" alt="">
+                    <h4 class="gameTitle">Skyrim V: The Elder Scroll</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/dyingLight2.jpeg" alt="">
+                    <h4 class="gameTitle">Dying Light 2: Stay Human</h4>
+                </div>
+                <div class="gameContainer">
+                    <!-- <img src="exploreGames/pubg.png" alt=""> -->
+                    <!-- <img src="exploreGames/pubgB.jpg" alt=""> -->
+                    <img src="exploreGames/smiteBattleground.webp" alt="">
+                    <h4 class="gameTitle">Smite</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/valheim.jpeg" alt="">
+                    <h4 class="gameTitle">Valheim</h4>
+                </div>
+            </div>
+            <div class="catSubTitles">
+                <h3>Metroidvania</h3>
+            </div>
+            <div class="gameRow">
+                <div class="gameContainer">
+                    <img src="exploreGames/hollowKnight.jpeg" alt="">
+                    <h4 class="gameTitle">Hollow Knight</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/deadcells.jpeg" alt="">
+                    <h4 class="gameTitle">Dead Cells</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/ori.png" alt="">
+                    <h4 class="gameTitle">Ori And The Will Of Wisps</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/Control.jpeg" alt="">
+                    <h4 class="gameTitle">Control</h4>
+                </div>
+            </div>
+            <div class="catSubTitles">
+                <h3>Story-Rich</h3>
+            </div>
+            <div class="gameRow">
+                <div class="gameContainer">
+                    <img src="exploreGames/fallout4.jpeg" alt="">
+                    <h4 class="gameTitle">fallout 4</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/halflifeAlyx.png" alt="">
+                    <h4 class="gameTitle">Half-Life: Alyx</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/itTakesTwo.jpeg" alt="" style="filter: saturate(75%);">
+                    <h4 class="gameTitle">It Takes Two</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/rdr2.jpeg" alt="">
+                    <h4 class="gameTitle">Red Dead Redemption 2</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="subContainer detail hiddenItem" id="role">
+            <div class="catSubTitles">
+                <h3>Action RPG</h3>
+            </div>
+            <div class="gameRow">
+                <div class="gameContainer">
+                    <img src="exploreGames/warframe.jpeg" alt="">
+                    <h4 class="gameTitle">Warframe</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/eldenRing.png" alt="">
+                    <h4 class="gameTitle">Elden Ring</h4>
+                </div>
+                <div class="gameContainer">
+                    <!-- <img src="exploreGames/pubg.png" alt=""> -->
+                    <!-- <img src="exploreGames/pubgB.jpg" alt=""> -->
+                    <img src="exploreGames/monsterHunterWorld.jpeg" alt="">
+                    <h4 class="gameTitle">Monster Hunter: World</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/taleOfArise.jpg" alt="">
+                    <h4 class="gameTitle">Tale Of Arise</h4>
+                </div>
+            </div>
+            <div class="catSubTitles">
+                <h3>Adventure RPG</h3>
+            </div>
+            <div class="gameRow">
+                <div class="gameContainer">
+                    <img src="exploreGames/skyrim5.jpeg" alt="">
+                    <h4 class="gameTitle">Skyrim V: The Elder Scroll</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/dyingLight2.jpeg" alt="">
+                    <h4 class="gameTitle">Dying Light 2: Stay Human</h4>
+                </div>
+                <div class="gameContainer">
+                    <!-- <img src="exploreGames/pubg.png" alt=""> -->
+                    <!-- <img src="exploreGames/pubgB.jpg" alt=""> -->
+                    <img src="exploreGames/smiteBattleground.webp" alt="">
+                    <h4 class="gameTitle">Smite</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/valheim.jpeg" alt="">
+                    <h4 class="gameTitle">Valheim</h4>
+                </div>
+            </div>
+            <div class="catSubTitles">
+                <h3>Rogue-Likes & Rogue-Lites</h3>
+            </div>
+            <div class="gameRow">
+                <div class="gameContainer">
+                    <img src="exploreGames/TheBindingOfIsaac.jpeg" alt="">
+                    <h4 class="gameTitle">The Binding Of Isaac: Rebirth</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/hades.jpeg" alt="">
+                    <h4 class="gameTitle">Hades</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/dontStarveTogether.jpeg" alt="" style="filter: saturate(75%);">
+                    <h4 class="gameTitle">Dont Starve Together</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/slayTheFire.webp" alt="">
+                    <h4 class="gameTitle">Slay The Fire</h4>
+                </div>
+            </div>
+            <div class="catSubTitles">
+                <h3>Turn-Based RPG</h3>
+            </div>
+            <div class="gameRow">
+                <div class="gameContainer">
+                    <img src="exploreGames/Wartales.jpeg" alt="">
+                    <h4 class="gameTitle">WarTales</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/naraka.jpeg" alt="">
+                    <h4 class="gameTitle">Naraka</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/pathOfExile.jpeg" alt="">
+                    <h4 class="gameTitle">Path of Exile</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/sekiro.jpeg" alt="">
+                    <h4 class="gameTitle">Sekiro: Shadows Die Twice</h4>
+                </div>
+            </div>
+            <div class="catSubTitles">
+                <h3>Fighting & Martial Arts</h3>
+            </div>
+            <div class="gameRow">
+                <div class="gameContainer">
+                    <img src="exploreGames/turtles.jpg" alt="">
+                    <h4 class="gameTitle">Teenage Mutant Ninja Turtles: Shredder's Revenge</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/finalFantasy7.jpeg" alt="">
+                    <h4 class="gameTitle">Final Fantasy 7 Remake</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/dragonBallFighterz.jpeg" alt="">
+                    <h4 class="gameTitle">Dragon Ball FighterZ</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/tekken7.jpeg" alt="">
+                    <h4 class="gameTitle">Tekken 7</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="subContainer detail hiddenItem" id="simu">
+            <div class="catSubTitles">
+                <h3>First Person Shooter</h3>
+            </div>
+            <div class="gameRow">
+                <div class="gameContainer">
+                    <img src="exploreGames/csgo.png" alt="">
+                    <h4 class="gameTitle">Counter Strike: Global Offensive</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/destiny2.png" alt="">
+                    <h4 class="gameTitle">Destiny 2</h4>
+                </div>
+                <div class="gameContainer">
+                    <!-- <img src="exploreGames/pubg.png" alt=""> -->
+                    <!-- <img src="exploreGames/pubgB.jpg" alt=""> -->
+                    <img src="exploreGames/apex.jpeg" alt="">
+                    <h4 class="gameTitle">Apex Legends</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/codops2.jpg" alt="">
+                    <h4 class="gameTitle">Call of Duty: Black Ops 2</h4>
+                </div>
+            </div>
+            <div class="catSubTitles">
+                <h3>Third Person Shooter</h3>
+            </div>
+            <div class="gameRow">
+                <div class="gameContainer">
+                    <img src="exploreGames/rdr2.jpeg" alt="">
+                    <h4 class="gameTitle">Red Dead Redemption 2</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/gta5.jpg" alt="">
+                    <h4 class="gameTitle">Grand Theft Auto 5</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/tombRaider.jpg" alt="">
+                    <h4 class="gameTitle">Tomb Raider</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/pubgB.jpg" alt="">
+                    <h4 class="gameTitle">Pubg Battlegrounds</h4>
+                </div>
+            </div>
+            <div class="catSubTitles">
+                <h3>Platformers and Runners</h3>
+            </div>
+            <div class="gameRow">
+                <div class="gameContainer">
+                    <img src="exploreGames/jedi.jpg" alt="">
+                    <h4 class="gameTitle">Star Wars Jedi: Fallen Order</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/itTakesTwo.jpeg" alt="">
+                    <h4 class="gameTitle">It Takes Two</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/cuphead.jpeg" alt="" style="filter: saturate(75%);">
+                    <h4 class="gameTitle">Cuphead</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/humanFallFlat.jpeg" alt="">
+                    <h4 class="gameTitle">Human Fall Flat</h4>
+                </div>
+            </div>
+            <div class="catSubTitles">
+                <h3>Hack & Slash</h3>
+            </div>
+            <div class="gameRow">
+                <div class="gameContainer">
+                    <img src="exploreGames/godOfWar.jpeg" alt="">
+                    <h4 class="gameTitle">God of War</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/naraka.jpeg" alt="">
+                    <h4 class="gameTitle">Naraka</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/pathOfExile.jpeg" alt="">
+                    <h4 class="gameTitle">Path of Exile</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/sekiro.jpeg" alt="">
+                    <h4 class="gameTitle">Sekiro: Shadows Die Twice</h4>
+                </div>
+            </div>
+            <div class="catSubTitles">
+                <h3>Fighting & Martial Arts</h3>
+            </div>
+            <div class="gameRow">
+                <div class="gameContainer">
+                    <img src="exploreGames/turtles.jpg" alt="">
+                    <h4 class="gameTitle">Teenage Mutant Ninja Turtles: Shredder's Revenge</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/finalFantasy7.jpeg" alt="">
+                    <h4 class="gameTitle">Final Fantasy 7 Remake</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/dragonBallFighterz.jpeg" alt="">
+                    <h4 class="gameTitle">Dragon Ball FighterZ</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/tekken7.jpeg" alt="">
+                    <h4 class="gameTitle">Tekken 7</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="subContainer detail hiddenItem" id="strat">
+            <div class="catSubTitles">
+                <h3>First Person Shooter</h3>
+            </div>
+            <div class="gameRow">
+                <div class="gameContainer">
+                    <img src="exploreGames/csgo.png" alt="">
+                    <h4 class="gameTitle">Counter Strike: Global Offensive</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/destiny2.png" alt="">
+                    <h4 class="gameTitle">Destiny 2</h4>
+                </div>
+                <div class="gameContainer">
+                    <!-- <img src="exploreGames/pubg.png" alt=""> -->
+                    <!-- <img src="exploreGames/pubgB.jpg" alt=""> -->
+                    <img src="exploreGames/apex.jpeg" alt="">
+                    <h4 class="gameTitle">Apex Legends</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/codops2.jpg" alt="">
+                    <h4 class="gameTitle">Call of Duty: Black Ops 2</h4>
+                </div>
+            </div>
+            <div class="catSubTitles">
+                <h3>Third Person Shooter</h3>
+            </div>
+            <div class="gameRow">
+                <div class="gameContainer">
+                    <img src="exploreGames/rdr2.jpeg" alt="">
+                    <h4 class="gameTitle">Red Dead Redemption 2</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/gta5.jpg" alt="">
+                    <h4 class="gameTitle">Grand Theft Auto 5</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/tombRaider.jpg" alt="">
+                    <h4 class="gameTitle">Tomb Raider</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/pubgB.jpg" alt="">
+                    <h4 class="gameTitle">Pubg Battlegrounds</h4>
+                </div>
+            </div>
+            <div class="catSubTitles">
+                <h3>Platformers and Runners</h3>
+            </div>
+            <div class="gameRow">
+                <div class="gameContainer">
+                    <img src="exploreGames/jedi.jpg" alt="">
+                    <h4 class="gameTitle">Star Wars Jedi: Fallen Order</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/itTakesTwo.jpeg" alt="">
+                    <h4 class="gameTitle">It Takes Two</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/cuphead.jpeg" alt="" style="filter: saturate(75%);">
+                    <h4 class="gameTitle">Cuphead</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/humanFallFlat.jpeg" alt="">
+                    <h4 class="gameTitle">Human Fall Flat</h4>
+                </div>
+            </div>
+            <div class="catSubTitles">
+                <h3>Hack & Slash</h3>
+            </div>
+            <div class="gameRow">
+                <div class="gameContainer">
+                    <img src="exploreGames/godOfWar.jpeg" alt="">
+                    <h4 class="gameTitle">God of War</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/naraka.jpeg" alt="">
+                    <h4 class="gameTitle">Naraka</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/pathOfExile.jpeg" alt="">
+                    <h4 class="gameTitle">Path of Exile</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/sekiro.jpeg" alt="">
+                    <h4 class="gameTitle">Sekiro: Shadows Die Twice</h4>
+                </div>
+            </div>
+            <div class="catSubTitles">
+                <h3>Fighting & Martial Arts</h3>
+            </div>
+            <div class="gameRow">
+                <div class="gameContainer">
+                    <img src="exploreGames/turtles.jpg" alt="">
+                    <h4 class="gameTitle">Teenage Mutant Ninja Turtles: Shredder's Revenge</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/finalFantasy7.jpeg" alt="">
+                    <h4 class="gameTitle">Final Fantasy 7 Remake</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/dragonBallFighterz.jpeg" alt="">
+                    <h4 class="gameTitle">Dragon Ball FighterZ</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/tekken7.jpeg" alt="">
+                    <h4 class="gameTitle">Tekken 7</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="subContainer detail hiddenItem" id="sports">
+            <div class="catSubTitles">
+                <h3>First Person Shooter</h3>
+            </div>
+            <div class="gameRow">
+                <div class="gameContainer">
+                    <img src="exploreGames/csgo.png" alt="">
+                    <h4 class="gameTitle">Counter Strike: Global Offensive</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/destiny2.png" alt="">
+                    <h4 class="gameTitle">Destiny 2</h4>
+                </div>
+                <div class="gameContainer">
+                    <!-- <img src="exploreGames/pubg.png" alt=""> -->
+                    <!-- <img src="exploreGames/pubgB.jpg" alt=""> -->
+                    <img src="exploreGames/apex.jpeg" alt="">
+                    <h4 class="gameTitle">Apex Legends</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/codops2.jpg" alt="">
+                    <h4 class="gameTitle">Call of Duty: Black Ops 2</h4>
+                </div>
+            </div>
+            <div class="catSubTitles">
+                <h3>Third Person Shooter</h3>
+            </div>
+            <div class="gameRow">
+                <div class="gameContainer">
+                    <img src="exploreGames/rdr2.jpeg" alt="">
+                    <h4 class="gameTitle">Red Dead Redemption 2</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/gta5.jpg" alt="">
+                    <h4 class="gameTitle">Grand Theft Auto 5</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/tombRaider.jpg" alt="">
+                    <h4 class="gameTitle">Tomb Raider</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/pubgB.jpg" alt="">
+                    <h4 class="gameTitle">Pubg Battlegrounds</h4>
+                </div>
+            </div>
+            <div class="catSubTitles">
+                <h3>Platformers and Runners</h3>
+            </div>
+            <div class="gameRow">
+                <div class="gameContainer">
+                    <img src="exploreGames/jedi.jpg" alt="">
+                    <h4 class="gameTitle">Star Wars Jedi: Fallen Order</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/itTakesTwo.jpeg" alt="">
+                    <h4 class="gameTitle">It Takes Two</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/cuphead.jpeg" alt="" style="filter: saturate(75%);">
+                    <h4 class="gameTitle">Cuphead</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/humanFallFlat.jpeg" alt="">
+                    <h4 class="gameTitle">Human Fall Flat</h4>
+                </div>
+            </div>
+            <div class="catSubTitles">
+                <h3>Hack & Slash</h3>
+            </div>
+            <div class="gameRow">
+                <div class="gameContainer">
+                    <img src="exploreGames/godOfWar.jpeg" alt="">
+                    <h4 class="gameTitle">God of War</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/naraka.jpeg" alt="">
+                    <h4 class="gameTitle">Naraka</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/pathOfExile.jpeg" alt="">
+                    <h4 class="gameTitle">Path of Exile</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/sekiro.jpeg" alt="">
+                    <h4 class="gameTitle">Sekiro: Shadows Die Twice</h4>
+                </div>
+            </div>
+            <div class="catSubTitles">
+                <h3>Fighting & Martial Arts</h3>
+            </div>
+            <div class="gameRow">
+                <div class="gameContainer">
+                    <img src="exploreGames/turtles.jpg" alt="">
+                    <h4 class="gameTitle">Teenage Mutant Ninja Turtles: Shredder's Revenge</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/finalFantasy7.jpeg" alt="">
+                    <h4 class="gameTitle">Final Fantasy 7 Remake</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/dragonBallFighterz.jpeg" alt="">
+                    <h4 class="gameTitle">Dragon Ball FighterZ</h4>
+                </div>
+                <div class="gameContainer">
+                    <img src="exploreGames/tekken7.jpeg" alt="">
+                    <h4 class="gameTitle">Tekken 7</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contentMainContainer hiddenItem" id="community">
+        <div class="subContainer" id="filter"></div>
+        <div class="subContainer" id="detail"></div>
+    </section>
+    <section class="contentMainContainer hiddenItem" id="trailers">
+    </section>
+        
+<!-- Patya -->
+
+            <!-- Footer Section -->
+      <section id="patya-footer">
+
+        <div class="footer">
+          <div class="container">
+              <div class="row">
+                  <div class="footer-col">
+                      <h4>Get to Know Us</h4>
+                      <ul>
+                          <li><a href="#">About Us</a></li>
+                          <li><a href="#">Our Services</a></li>
+                          <li><a href="#">Privacy Policy</a></li>
+                      </ul>
+                  </div>
+                  <div class="footer-col">
+                      <h4>Links</h4>
+                      <ul>
+                          <li><a href="#">Home</a></li>
+                          <li><a href="#">FAQ</a></li>
+                          <li><a href="#">Terms and Conditions</a></li>
+                      </ul>
+                  </div>
+                  <div class="footer-col">
+                      <h4>Connect with Us</h4>
+                      <div class="social-links">
+                          <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+                          <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                          <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </section>
+      <script src="scriptExplore.js"></script>
+  </body>
+</html>

@@ -4,14 +4,18 @@ body{
 }
 .catTitle{
     margin: 1rem;
-    margin-left: 1.5rem;
+    margin-left: 2.5rem;
     font-size: 2rem;
     color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-family: 'Lato', sans-serif;
 }
 .highlightedWords{
-    color: rgb(144, 25, 25);
+    /* color: rgb(144, 25, 25); */
+    color: #8B0000;
     /* color: rgb(23, 145, 189); */
-    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }
 #trendingGames .slideGames{
     position: relative;
@@ -32,7 +36,7 @@ body{
 }
 #trendingGames .gameImgHolder{
     /* border: 1px solid red; */
-    width: 19.3%;
+    width: 19.1%;
     height: auto;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
@@ -93,17 +97,28 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.400);
+    background-color: rgba(0, 0, 0, 0.300);
     color: white;
     height: 100%;
     width: 8%;
     z-index: 4;
     opacity: 0;
-    box-shadow: 0 0 5px 10px rgba(0, 0, 0, 0.400);
+    box-shadow: 0 0 5px 10px rgba(0, 0, 0, 0.300);
     transition: all 0.4s;
 }
 #trendingGames .slideButton:hover{
     opacity: 1;
+}
+.fadeIn{
+    animation: fadein 1s forward;
+}
+@keyframes fadein {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 @media (min-width: 0px) and (max-width: 550px) {
     .catTitle{
@@ -263,13 +278,13 @@ body{
 
 .navbar{
     /* background-image: linear-gradient(-20deg, #24262b, #371B58); */
-    background-color: #2a2a2ac4;
+    background-color: #000000d6;
     position: fixed;
     top: 0;
     left: 0;
     margin: 0;
     width: 100%;
-    height: 5rem;
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -363,15 +378,10 @@ body{
     background-color: black;
     font-family: 'roboto', sans-serif;
 }
-.catTitle{
-    margin: 1rem;
-    font-size: 2rem;
-    color: rgb(255, 255, 255);
-}
-.highlightedWords{
+/* .highlightedWords{
     color: rgb(144, 25, 25);
     font-weight: 600;
-}
+} */
 .card-container{
     margin: 1rem;
     margin-top: 0;
