@@ -21,6 +21,12 @@ body {
     z-index: 1000000;
     opacity: 1;
 }
+#selectedNav a{
+    color: white;
+    box-sizing:border-box;
+    border-bottom: 2px solid white;
+    margin-bottom: 1px;
+}
 
 .navbar ul {
     position: relative;

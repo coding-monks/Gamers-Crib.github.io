@@ -775,7 +775,46 @@ body{
 .hide{
     display: none;
 }
+/*News */
+.newsHeader {
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    padding: 10px;
+    box-shadow:5px 5px 20px rgb(86, 29, 29);
+   
+   }
+.news_top{
+    margin-top: 125px;
+    
+}
+.latest{
+    margin-top: 20px;
+}
+.img_space{
+    height: 30vh;
+}
+.card_space{
+    height: 60vh;
+}
+.card_color{
+    background-color: #2a2a2a;
+}
+.news_hover{
+    transition: all 0.5s;
+}
+.news_hover:hover{
+    filter: brightness(150%);
+}
+.btn_pos{
+    position: relative;
 
+}
+.news_content{
+    background-color: #2a2a2a;
+}
+.news_para{
+    margin-top: 20px;
+}
 
 
 /* END */
