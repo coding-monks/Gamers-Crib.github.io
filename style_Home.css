@@ -110,6 +110,16 @@ body{
         text-align: center;
         font-size: 1.8rem !important;
     }
+    .navbar{
+        position: sticky !important;
+        top: 0;
+    }
+    /* .collapse{
+        width: 50% !important;
+    } */
+    #navbarNav{
+        background-color: #2a2a2ae7;
+    }
     #trendingGames p{
         font-size: 70%;
     }
@@ -174,10 +184,12 @@ body{
 /* Divyanshu Jha */
 
 #YT_videos .row div{
-    margin: 10px;
+    margin: 24px;
     padding: 0%;
-    
 
+}
+.border_frame{
+    border: 5px solid #2a2a2a;
 }
 
 #YT{
@@ -185,7 +197,7 @@ body{
 }
 
 #YT_videos{
-    background: #161a1d;
+    background: black;
     border-radius: 10px;
 
 }
@@ -200,24 +212,7 @@ body{
     margin-left: 49px;
 }
 
-#channels{
-    margin: 12px;
-    background:#161a1d;
-}
-.size{
-    width: 20vw;
-    height: 40vh;
-}
-#coms{
-    color: white;
-   
-}
-.pos{
-    position: relative;
-    left: 22px;
-    font-size: 2rem;
 
-}
 
 .expand{
     transition: all 0.5s;
@@ -683,7 +678,7 @@ body{
 }
 
 .equipmentscontent{
-    background-image: url(Images/mainbg.jpg);
+    background-image: url("Images/mainbg.jpg");
     background-size: cover;
     padding: 1%;
 }
@@ -709,6 +704,69 @@ body{
         align-items: center;
     }
 } 
+
+#comss{
+    background-color: #2a2a2a;
+}
+.size{
+    width: 270px;
+    height: 270px;
+    position: relative;
+    transition: all 0.5s;
+    left: 9px;
+}
+#coms{
+    color: white;
+   
+}
+
+.pos{
+    position: relative;
+    left: 22px;
+    font-size: 2rem;
+
+}
+
+.size:hover{
+    transform: scale(0.9);
+}
+.expand{
+    transition: all 0.5s;
+  
+}
+.expand:hover{
+    transform: scale(1.5);
+    z-index: 1;
+}
+
+
+#show_more1{
+    height:50px;
+    background-color:#24262B;
+    display: flex;
+    justify-content: center;
+    margin: 0 !important;
+   
+}
+
+#comss div{
+    margin: 16px;
+}
+#show_more2{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    
+}
+#show_more1:hover{
+    background-color: #100f0f;
+  
+}
+.hide{
+    display: none;
+}
+
+
 
 /* END */
 
