@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOTSTRAP only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <!-- FONT AWESOME ICONS -->
+    <script src="https://kit.fontawesome.com/3066047997.js" crossorigin="anonymous"></script>
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <!-- CSS ONLY -->
+    <link rel="stylesheet" href="store.css">
+    <title>Gamer's Crib - Store</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="menu-bar">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">GamersCrib</a>
+                    <!-- <div class="search-box ">
+                        <form action="">
+                            <input type="text" name="Search" id="srch" placeholder="Search">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </form>
+                    </div> -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa fa-solid fa-bars-staggered"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Store</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">My Profile</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- MAIN BODY SECTION -->
+
+    <!-- NUMBER 1 = THE TITLE  -->
+    <div class="store-title">
+        <p class="titleheadertext">THE GAMING
+            <!--<span style="color: rgb(144, 25, 25);"> -->STORE
+            <!--</span>-->
+        </p>
+    </div>
+    <!-- NUMBER 2 = BODY NAVBAR  -->
+    <div class="bodyrowheader">
+        <button class="btn firstbodyrow comps" style="color:white ; line-height: 1.5;"> Components </button>
+        <button class="btn firstbodyrow pcsets" style="color:white ; line-height: 1.5;"> PC Setups </button>
+        <button class="btn firstbodyrow consets" style="color:white ; line-height: 1.5;"> Console Setups </button>
+    </div>
+    <!-- NUMBER 3 = DYNAMIC CONTENT -->
+    <div class="container dkcontainer components">
+        <div class="row">
+            <div class="permanent col-4">
+
+                <ul style="list-style:none;">
+                    <li>
+                        <p class="perheading">CATEGORIES</p>
+                    </li>
+                    <li><a href="#" class="cats gc">Graphics Card</a></li>
+                    <li><a href="#" class="cats ram">RAM</a></li>
+                    <li><a href="#" class="cats keyboard">Keyboard</a></li>
+                    <li><a href="#" class="cats mouse">Mouse</a></li>
+                    <li><a href="#" class="cats ssd">SSD</a></li>
+                    <li><a href="#" class="cats monitor">Monitor</a></li>
+                    <li><a href="#" class="cats headphones">Headphones</a></li>
+                    <li><a href="#" class="cats xbox">Xbox Controllers</a></li>
+                </ul>
+            </div>
+            <div class="dynamic col-8">
+                <p class="perheading">ITEMS</p>
+                <div class="choldergc">
+                    <h5> Best of High End Graphic cards </h5>
+                    <div class="row">
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://wallpaperaccess.com/full/4798318.jpg" class="card-img-top eqsimg"
+                                alt="RTX3090">
+                            <div class="card-body">
+                                <h5 class="card-title">RTX 3090</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://wallpapercave.com/wp/wp8749083.jpg" class="card-img-top eqsimg"
+                                alt="RTX3090">
+                            <div class="card-body">
+                                <h5 class="card-title">RTX 3080 ti</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://static.techspot.com/articles-info/2144/images/2020-11-18-image-3.jpg"
+                                class="card-img-top eqsimg" alt="RTX3090">
+                            <div class="card-body">
+                                <h5 class="card-title">AMD RANDEON RX 6800 XT</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="choldergc">
+                    <h5> Best of High-Mid End Grapics Cards </h5>
+                    <div class="row">
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://imageio.forbes.com/specials-images/imageserve/5fc5aa2211b9f9ba97118c66/0x0.jpg?format=jpg&width=1200"
+                                class="card-img-top eqsimg" alt="RTX3090">
+                            <div class="card-body">
+                                <h5 class="card-title">RTX 3060 Ti</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://static.techspot.com/articles-info/2403/images/geforce-rtx-3050-10.jpg"
+                                class="card-img-top eqsimg" alt="RTX3090">
+                            <div class="card-body">
+                                <h5 class="card-title">RTX 3050</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://assets-global.website-files.com/5d1911406ad3cbdb9924a753/5d6d82b19aff32b24d14755b_boxcard_1024.jpg"
+                                class="card-img-top eqsimg" alt="RTX3090">
+                            <div class="card-body">
+                                <h5 class="card-title">AMD RANDEON RX 570 RS</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="choldergc">
+                    <h5> Best of Mid-Low End Grapics Cards </h5>
+                    <div class="row">
+                        <div class="card text-bg-dark col-lg-4 col-md-6" style="width: 15rem; padding: 0;">
+                            <img src="http://www.eashirbad.com/wp-content/uploads/2022/06/61qnfFDlCBL._AC_SL1000_.jpg"
+                                class="card-img-top eqsimg" alt="RTX3090">
+                            <div class="card-body">
+                                <h5 class="card-title">GTX 1660 super</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://m.media-amazon.com/images/I/71PyN--4a6L._SL1500_.jpg"
+                                class="card-img-top eqsimg" alt="RTX3090">
+                            <div class="card-body">
+                                <h5 class="card-title">GTX 1660</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://m.media-amazon.com/images/I/716YtavDfrL._SL1500_.jpg"
+                                class="card-img-top eqsimg" alt="RTX3090">
+                            <div class="card-body">
+                                <h5 class="card-title">GTX 1650 super</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cholderram hiddenitems">
+                    <h5> Best of High End RAMs </h5>
+                    <div class="row">
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://m.media-amazon.com/images/I/61l4EStxhnL._SX569_.jpg"
+                                class="card-img-top eqsimg" alt="RAM">
+                            <div class="card-body">
+                                <h5 class="card-title">32GB GSKILL TRIDENT</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://m.media-amazon.com/images/I/314K4HYvgJL.jpg" class="card-img-top eqsimg"
+                                alt="RAM">
+                            <div class="card-body">
+                                <h5 class="card-title">32 GB GSKILL RIPJAWS</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://m.media-amazon.com/images/I/61uXihcspuL._SX522_.jpg"
+                                class="card-img-top eqsimg" alt="RAM">
+                            <div class="card-body">
+                                <h5 class="card-title">32 GB KINGSTON FURY</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cholderram hiddenitems">
+                    <h5> Best of High-Mid End RAMs </h5>
+                    <div class="row">
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://m.media-amazon.com/images/I/41w6+DFbetS._SY300_SX300_.jpg"
+                                class="card-img-top eqsimg" alt="RAM">
+                            <div class="card-body">
+                                <h5 class="card-title">16GB GSKILL RIPJAWS</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/I/41aVm2opnhL._SX300_SY300_QL70_FMwebp_.jpg"
+                                class="card-img-top eqsimg" alt="RAM">
+                            <div class="card-body">
+                                <h5 class="card-title">16GB T-FORCE DELTA RGB</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/I/412C-vRXfbL._SY300_SX300_QL70_FMwebp_.jpg"
+                                class="card-img-top eqsimg" alt="RAM">
+                            <div class="card-body">
+                                <h5 class="card-title">16GB XPG ADATA</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cholderram hiddenitems">
+                    <h5> Best of Mid-Low End RAMs </h5>
+                    <div class="row">
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://m.media-amazon.com/images/I/61Yc53OhY4L._SX522_.jpg"
+                                class="card-img-top eqsimg" alt="RAM">
+                            <div class="card-body">
+                                <h5 class="card-title">8GB KINGSTON FURY</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://m.media-amazon.com/images/I/311M19+3O8L._SX300_SY300_.jpg" alt="RAM">
+                            <div class="card-body">
+                                <h5 class="card-title">8GB CORSAIR VENGEANCE </h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/I/41Zvj4UYVHL._SX300_SY300_QL70_FMwebp_.jpg"
+                                class="card-img-top eqsimg" alt="RAM">
+                            <div class="card-body">
+                                <h5 class="card-title">8GB XPG ADATA</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cholderkeyboard hiddenitems">
+                    <h5> Best of High End Keyboards </h5>
+                    <div class="row">
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://m.media-amazon.com/images/I/715p-052NjL._SX425_.jpg"
+                                class="card-img-top eqsimg" alt="RAM">
+                            <div class="card-body">
+                                <h5 class="card-title">ROG wireless Mechanical Keyboard </h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://m.media-amazon.com/images/I/81O8cwL5e1L._SX425_.jpg"
+                                class="card-img-top eqsimg" alt="RAM">
+                            <div class="card-body">
+                                <h5 class="card-title">ROG wirless Falchion mechanical keyboard</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://m.media-amazon.com/images/I/51ypOEgJOFL._SX425_.jpg"
+                                class="card-img-top eqsimg" alt="RAM">
+                            <div class="card-body">
+                                <h5 class="card-title">SHURIKEYGEAR Hanzo Mechanical Keyboard</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cholderkeyboard hiddenitems">
+                    <h5> Best of High-Mid End Keyboards </h5>
+                    <div class="row">
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://m.media-amazon.com/images/I/71jPClBDPDL._SX425_.jpg"
+                                class="card-img-top eqsimg" alt="RAM">
+                            <div class="card-body">
+                                <h5 class="card-title">Redragon K580 VATA RGB LED </h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://m.media-amazon.com/images/I/61yu7u1MlNL._SX425_.jpg"
+                                class="card-img-top eqsimg" alt="RAM">
+                            <div class="card-body">
+                                <h5 class="card-title">HUO JI Mechanical Keyboard</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://m.media-amazon.com/images/I/61Nt8geXzWL._SX569_.jpg"
+                                class="card-img-top eqsimg" alt="RAM">
+                            <div class="card-body">
+                                <h5 class="card-title">Logitech G213 Prodigy Gaming Keyboard</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cholderkeyboard hiddenitems">
+                    <h5> Best of Mid-Low End Keyboards </h5>
+                    <div class="row">
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://m.media-amazon.com/images/I/61NKGdlO36L._SX569_.jpg"
+                                class="card-img-top eqsimg" alt="RAM">
+                            <div class="card-body">
+                                <h5 class="card-title">Redgear Shadow Blade Mechanical Keyboard </h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://m.media-amazon.com/images/I/71PquP2IYaL._SX522_.jpg"
+                                class="card-img-top eqsimg" alt="RAM">
+                            <div class="card-body">
+                                <h5 class="card-title">Cosmic Byte CB-GK-28</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://m.media-amazon.com/images/I/71LL+ma2eVL._SX522_.jpg"
+                                class="card-img-top eqsimg" alt="RAM">
+                            <div class="card-body">
+                                <h5 class="card-title">Quantum QHM9800 Rapid Strike Mechanical Gaming</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="choldermouse hiddenitems">
+                    <h5> Best of High End Keyboards </h5>
+                    <div class="row">
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://m.media-amazon.com/images/I/81PTEGZOaGL._SX522_.jpg"
+                                class="card-img-top eqsimg" alt="mouse">
+                            <div class="card-body">
+                                <h5 class="card-title">Alienware Tri-Mode Wired/Wireless Gaming Mouse</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://m.media-amazon.com/images/I/61yKhwQrs3L._SX569_.jpg"
+                                class="card-img-top eqsimg" alt="mouse">
+                            <div class="card-body">
+                                <h5 class="card-title">Razer Viper V2 Pro Hyperspeed Mouse</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://m.media-amazon.com/images/I/31qPw4sF6uL.jpg" class="card-img-top eqsimg"
+                                alt="mouse">
+                            <div class="card-body">
+                                <h5 class="card-title">Logitech G502 Proteus Spectrum</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="choldermouse hiddenitems">
+                    <h5> Best of High-Mid End Keyboards </h5>
+                    <div class="row">
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://m.media-amazon.com/images/I/61M7B24YNEL._SX425_.jpg"
+                                class="card-img-top eqsimg" alt="mouse">
+                            <div class="card-body">
+                                <h5 class="card-title">Razer Viper Ultimate Hyperspeed </h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://m.media-amazon.com/images/I/61S4llvgPZL._SX425_.jpg"
+                                class="card-img-top eqsimg" alt="mouse">
+                            <div class="card-body">
+                                <h5 class="card-title">Corsair Scimitar Pro RGB MMO</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://m.media-amazon.com/images/I/51kwBpxgGsL._SX569_.jpg"
+                                class="card-img-top eqsimg" alt="mouse">
+                            <div class="card-body">
+                                <h5 class="card-title">Razer Viper Ultimate Hyperspeed</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="choldermouse hiddenitems">
+                    <h5> Best of Mid-Low End Keyboards </h5>
+                    <div class="row">
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://m.media-amazon.com/images/I/61Ij97AxtsL._SX425_.jpg"
+                                class="card-img-top eqsimg" alt="mouse">
+                            <div class="card-body">
+                                <h5 class="card-title">Lenovo Legion M200 RGB </h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://m.media-amazon.com/images/I/31Q09M2aEuL._SX425_.jpg"
+                                class="card-img-top eqsimg" alt="mouse">
+                            <div class="card-body">
+                                <h5 class="card-title">Redragon Phaser M609 </h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://m.media-amazon.com/images/I/61UxfXTUyvL._SX522_.jpg"
+                                class="card-img-top eqsimg" alt="mouse">
+                            <div class="card-body">
+                                <h5 class="card-title">Logitech G102 Light </h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cholderssd hiddenitems">
+                    <h5> Best of High End SSDs </h5>
+                    <div class="row">
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//106/MTA-7996615/gigabyte_gigabyte_aorus_nvme_gen4_ssd_1tb_full01_ps88yzwh.jpg"
+                                class="card-img-top eqsimg" alt="ssd">
+                            <div class="card-body">
+                                <h5 class="card-title">GIGABYTE AORUS NVMe SSD </h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://images.anandtech.com/doci/16786/car-01_678x452.jpg"
+                                class="card-img-top eqsimg" alt="ssd">
+                            <div class="card-body">
+                                <h5 class="card-title">FIRECUDA NVMe SSD </h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://www.xda-developers.com/files/2021/10/Samsung-980-SSD.jpg"
+                                class="card-img-top eqsimg" alt="ssd">
+                            <div class="card-body">
+                                <h5 class="card-title">SAMSUNG 980 NVMe SSD </h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cholderssd hiddenitems">
+                    <h5> Best of High-Mid End SSDs </h5>
+                    <div class="row">
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://m.media-amazon.com/images/I/712BCSoxw3L._SL1428_.jpg"
+                                class="card-img-top eqsimg" alt="ssd">
+                            <div class="card-body">
+                                <h5 class="card-title">KINGSTON FURY NVMe SSD</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://www.crucial.in/content/dam/crucial/ssd-products/P5/images/in-use/Crucial-p5-ssd-motherboard-glow-Image.psd.transform/small-jpg/img.jpg"
+                                class="card-img-top eqsimg" alt="ssd">
+                            <div class="card-body">
+                                <h5 class="card-title">CRUCIAL P5 NVMe SSD</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://cdn.mos.cms.futurecdn.net/SHL3NofVYb4f9Wg3qHAYk3-480-80.jpg"
+                                class="card-img-top eqsimg" alt="ssd">
+                            <div class="card-body">
+                                <h5 class="card-title">WD BLUE NVMe SSD</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cholderssd hiddenitems">
+                    <h5> Best of Mid-Low End SSDs </h5>
+                    <div class="row">
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://stringfixer.com/files/505534396.jpg" class="card-img-top eqsimg"
+                                alt="ssd">
+                            <div class="card-body">
+                                <h5 class="card-title">KINGSTON SATA SSD</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://images.anandtech.com/doci/11790/imgp4581_678x452.jpg"
+                                class="card-img-top eqsimg" alt="ssd">
+                            <div class="card-body">
+                                <h5 class="card-title">HP SATA SSD</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://p.kindpng.com/picc/s/425-4257700_wd-green-120gb-internal-ssd-wd-wds100t1b0a-blue.png"
+                                class="card-img-top eqsimg" alt="ssd">
+                            <div class="card-body">
+                                <h5 class="card-title">WD GREEN SATA SSD</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="choldermonitor hiddenitems">
+                    <h5> Best of High End Monitors </h5>
+                    <div class="row">
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://rog.asus.com/forum/attachment.php?attachmentid=53069&d=1445274871&thumb=1" class="card-img-top eqsimg"
+                                alt="Monitors">
+                            <div class="card-body">
+                                <h5 class="card-title">ASUS ROG Gaming Monitor</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://wallpaperaccess.com/full/510641.jpg"
+                                class="card-img-top eqsimg" alt="Monitors">
+                            <div class="card-body">
+                                <h5 class="card-title">SAMSUNG QLED Curved Monitor</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://www.lg.com/us/images/monitors/md07500011/features/MNT-32UN880-02-UHD-4K-IPS-D.jpg"
+                                class="card-img-top eqsimg" alt="Monitors">
+                            <div class="card-body">
+                                <h5 class="card-title">LG Ultrafine ERGO</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="choldermonitor hiddenitems">
+                    <h5> Best of High-Mid End Monitors </h5>
+                    <div class="row">
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://static.techspot.com/articles-info/1976/images/S-3.jpg" class="card-img-top eqsimg"
+                                alt="Monitors">
+                            <div class="card-body">
+                                <h5 class="card-title">LG UltraGear Curved Monitor</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://m.media-amazon.com/images/I/61jYCCxP5ZL._SX522_.jpg"
+                                class="card-img-top eqsimg" alt="Monitors">
+                            <div class="card-body">
+                                <h5 class="card-title">LG QHD Monitor</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://mspoweruser.com/wp-content/uploads/2019/09/Lenovo-Q27q-Monitor.jpg"
+                                class="card-img-top eqsimg" alt="Monitors">
+                            <div class="card-body">
+                                <h5 class="card-title">Lenevo Q-series QHD Monitor</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="choldermonitor hiddenitems">
+                    <h5> Best of Mid-Low End Monitors </h5>
+                    <div class="row">
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/I/41-loHAkLUL._SY300_SX300_QL70_FMwebp_.jpg"
+                                class="card-img-top eqsimg" alt="Monitors">
+                            <div class="card-body">
+                                <h5 class="card-title">Acer FHD Monitor</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://displaysolutions.samsung.com/static/images/feature/monitor/S24R350_01.jpg?0827" class="card-img-top eqsimg"
+                                alt="Monitors">
+                            <div class="card-body">
+                                <h5 class="card-title">SAMSUNG 24inch FHD Monitor</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://m.media-amazon.com/images/I/81qvI27c+GL._SX522_.jpg"
+                                class="card-img-top eqsimg" alt="Monitors">
+                            <div class="card-body">
+                                <h5 class="card-title">LG full-hd Monitor</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cholderheadphones hiddenitems">
+                    <h5> Best of High End Headphones </h5>
+                    <div class="row">
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://dlcdnwebimgs.asus.com/files/media/810B27C7-0E60-4104-9700-5470ECC0182A/v1/img/video/video.jpg"
+                                class="card-img-top eqsimg" alt="Headphones">
+                            <div class="card-body">
+                                <h5 class="card-title">ROG Fusion 2 </h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://i0.wp.com/www.tech-critter.com/wp-content/uploads/2020/06/Corsair-Virtuoso-RGB-Wireless-01.jpg" class="card-img-top eqsimg"
+                                alt="Headphones">
+                            <div class="card-body">
+                                <h5 class="card-title">Corsair Store Virtuoso Rgb</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                        <div class="card text-bg-dark col-lg-4 col-md-6 " style="width: 15rem;padding: 0;">
+                            <img src="https://m.media-amazon.com/images/I/81qvI27c+GL._SX522_.jpg"
+                                class="card-img-top eqsimg" alt="Headphones">
+                            <div class="card-body">
+                                <h5 class="card-title">LG full-hd Monitor</h5>
+                                <a href="#" class="btn btn-outline-light">See Details </a>
+                            </div>
+                        </div>
+                    </div>
+                    <p> RBG Headphones</p>
+                </div>
+                <div class="cholderxbox hiddenitems">
+                    <p> Forza Edition xbox Controller</p>
+                    <p> Forza Edition xbox Controller</p>
+                    <p> Forza Edition xbox Controller</p>
+                    <p> Forza Edition xbox Controller</p>
+                    <p> Forza Edition xbox Controller</p>
+                    <p> Forza Edition xbox Controller</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container hiddenitems dkcontainer pcsetup">
+        <div class="row">
+            <div class="permanent col-4">
+
+                <ul style="list-style:none;">
+                    <li>
+                        <p class="perheading">CATEGORIES</p>
+                    </li>
+                    <li><a href="#" class="cats">Graphics Card</a></li>
+                    <li><a href="#" class="cats">RAM</a></li>
+                    <li><a href="#" class="cats">Keyboard</a></li>
+                    <li><a href="#" class="cats">Mouse</a></li>
+                    <li><a href="#" class="cats">SSD</a></li>
+                    <li><a href="#" class="cats">Monitor</a></li>
+                    <li><a href="#" class="cats">Speakers</a></li>
+                    <li><a href="#" class="cats">Headphones</a></li>
+                    <li><a href="#" class="cats">MIC</a></li>
+                    <li><a href="#" class="cats">Xbox Controllers</a></li>
+                </ul>
+            </div>
+            <div class="dynamic col-8">
+                <p class="perheading">ITEMS</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container hiddenitems dkcontainer consolesetup">
+        <div class="row">
+            <div class="permanent col-4">
+
+                <ul style="list-style:none;">
+                    <li>
+                        <p class="perheading">CATEGORIES</p>
+                    </li>
+                    <li><a href="#" class="cats">Graphics Card</a></li>
+                    <li><a href="#" class="cats">RAM</a></li>
+                    <li><a href="#" class="cats">Keyboard</a></li>
+                    <li><a href="#" class="cats">Mouse</a></li>
+                    <li><a href="#" class="cats">SSD</a></li>
+                    <li><a href="#" class="cats">Monitor</a></li>
+                    <li><a href="#" class="cats">Speakers</a></li>
+                    <li><a href="#" class="cats">Headphones</a></li>
+                    <li><a href="#" class="cats">MIC</a></li>
+                    <li><a href="#" class="cats">Xbox Controllers</a></li>
+                </ul>
+            </div>
+            <div class="dynamic col-8">
+                <p class="perheading">ITEMS</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+                <p>equipments</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- FOOTER SECTION -->
+
+    <section id="patya-footer">
+
+        <div class="footer">
+            <div class="container patya-container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>Get to Know Us</h4>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Our Services</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Links</h4>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Terms and Conditions</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Connect with Us</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="store.js"></script>
+</body>
+
+</html>
