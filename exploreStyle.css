@@ -106,7 +106,7 @@ body{
     top: 0px;
     z-index: 2;
 }
-#selectedNav a{
+#exploreNav a{
     color: white;
     box-sizing:border-box;
     border-bottom: 2px solid white;
