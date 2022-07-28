@@ -1,0 +1,370 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+/* HEADER NAV BAR SECTION */
+/* START  */
+.navbar {
+    /* background-image: linear-gradient(-20deg, #24262b, #371B58); */
+    background-color: #0000005d;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    z-index: 1000000;
+    opacity: 1;
+}
+
+.navbar ul {
+    position: relative;
+    display: flex;
+}
+
+.navbar ul li {
+    position: relative;
+}
+
+.navbar ul li a {
+    position: relative;
+    transition: 0.6s;
+}
+
+.navbar-brand {
+    /* width: 150px;
+    margin-top: 5px;
+    margin-left: 20px; */
+    margin-top: 5px;
+    font-size: 25px;
+    color: white;
+    font-weight: 800;
+    position: relative;
+    transition: 0.6s;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.navbar-brand:focus {
+    color: white;
+}
+
+.nav-link {
+    font-size: 16px;
+    margin: 3px;
+    color: #bbbbbb;
+    font-weight: 500;
+}
+
+.navbar-nav {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.menu-bar .navbar-toggler {
+    padding-right: 20px;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.menu-bar .navbar-toggler:focus {
+    border: none;
+    outline: none;
+}
+
+.fa-brands {
+    color: #bbbbbb;
+    font-size: 26px;
+}
+
+.fa-brands:hover {
+    color: white;
+}
+
+.nav-link:hover {
+    color: white;
+    /* border-bottom: 1.5px solid white; */
+}
+
+.nav-link:focus {
+    color: white;
+    border-bottom: 1.5px solid white;
+}
+
+@media only screen and (max-width: 1000px) {
+    .search-box button {
+        position: absolute;
+        margin-left: 50px;
+    }
+
+    .nav-link:hover {
+        border-bottom: none;
+    }
+
+    .nav-link:focus {
+        border-bottom: none;
+    }
+}
+
+/* END */
+
+/* MAIN BODY SECTION */
+
+/* NUMBER 1 = TITLE SECTION  */
+
+/* START  */
+.store-title {
+    height: 8rem;
+    width: 100%;
+    margin-top: 5rem;
+    display: flex;
+    /* NEED TO KNOW  */
+    justify-content: center;
+    /* NEED TO KNOW  */
+    align-items: center;
+    background-image: url(Images/storemainbg.jpg);
+    background-size: cover;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.titleheadertext {
+    margin: auto;
+    font-size: 4rem;
+}
+
+@media (max-width:750px) {
+    .titleheadertext {
+        font-size: 2rem;
+        ;
+    }
+
+}
+
+@media (max-width:415px) {
+    .titleheadertext {
+        font-size: 1.5rem;
+    }
+
+}
+
+/* END */
+
+/* NUMBER 2 = BODY ROW NAVIGATION BAR */
+
+/* START */
+.bodyrowheader {
+    height: 5rem;
+    width: 100%;
+    margin: 0.5rem auto 0;
+    display: flex;
+    /* NEED TO KNOW  */
+    justify-content: center;
+    /* NEED TO KNOW  */
+    align-items: center;
+
+
+}
+
+
+.firstbodyrow {
+    display: inline-block;
+    line-height: 1.5;
+    padding: 0 2%;
+}
+
+
+/* END */
+
+/* NUMBER 3 = STATIC AND DYNAMIC BODY  */
+
+/* START */
+
+.dkcontainer {
+    margin: 2% auto;
+}
+
+/*  NUMEBR 3.1 = COMPONENTS SECTION */
+
+.permanent {
+    position: sticky;
+    padding-top: 1%;
+    top: 5rem;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0.8rem 0 0;
+    background-color: #232323c4;
+    height: fit-content;
+
+}
+
+.dynamic {
+    background-color: #100F0F;
+    padding-top: 1%;
+}
+
+.perheading {
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.cats {
+    color: rgb(52, 208, 208);
+    text-decoration: none;
+    font-weight: 300;
+    line-height: 1.75;
+    font-size: 1.2rem;
+}
+
+.cats:hover {
+    transition: 0.5s;
+    color: white;
+    padding: 0 0 0.2% 0.2%;
+}
+
+.eqsimg{
+    width: 100%;
+    height: 12rem;
+}
+
+.choldergc{
+    align-items: center;
+    padding: 2%;
+}
+
+.cholderram{
+    align-items: center;
+    padding: 2%;
+}
+
+.cholderkeyboard{
+    align-items: center;
+    padding: 2%;
+}
+
+.cholderssd{
+    align-items: center;
+    padding: 2%;
+}
+
+.card{
+    border: solid;
+    border-color: #100F0F;
+    border-width: 0.5%;
+
+}
+
+@media (max-width:750px) {
+    .perheading {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:415px) {
+    .perheading {
+        font-size: 0.7rem;
+    }
+
+    .cats {
+        font-size: 0.7rem;
+    }
+}
+
+/* END */
+
+
+/* NUMBER 3.2 = PC SETUPS  */
+
+/* START */
+
+.hiddenitems {
+    display: none;
+}
+
+
+/* END */
+
+
+/* Footer Section */
+
+.footer {
+    background-color: #161a1d;
+    padding: 70px 0;
+}
+
+.patya-container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    width: 33%;
+    /* padding: 0 15px; */
+    text-align: left;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+    padding-left: 30px;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    color: #bbbbbb;
+    text-decoration: none;
+    font-weight: 300;
+
+}
+
+.footer-col ul li a:hover {
+    transition: 0.3s;
+    color: white;
+    padding-left: 10px;
+}
+
+.social-links {
+    padding-left: 30px;
+}
+
+.footer-col .social-links a {
+    height: 100px;
+    width: 100px;
+    margin: 0 10px 10px 0;
+    color: white;
+}

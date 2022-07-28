@@ -199,11 +199,12 @@ body{
 /* Divyanshu Jha */
 
 #YT_videos .row div{
-    margin: 10px;
+    margin: 24px;
     padding: 0%;
-    border: 5px solid #2a2a2a;
-    
 
+}
+.border_frame{
+    border: 5px solid #2a2a2a;
 }
 
 #YT{
@@ -713,18 +714,9 @@ body{
         align-items: center;
     }
 } 
-#channels{
-    margin: -7px;
-    background:#24262B;
-    width: 98vw;
-    margin-top: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-.com1{
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
 
+#comss{
+    background-color: #2a2a2a;
 }
 .size{
     width: 270px;
@@ -737,90 +729,14 @@ body{
     color: white;
    
 }
-@media screen and (max-width:576px) {
-    .com1{
-        grid-template-columns: auto;
-    }
-    .size{
-        left: 45px;
-    }
-    
-}
-@media screen and (max-width:768px) and (min-width:577px) {
-    .com1{
-        grid-template-columns: auto auto;
-    }
-    
-}
-.expand{
-    position: relative;
-}
-@media screen and (max-width:576px) {
-    .expand{
-        left:28px;
-    }
 
-}
-@media screen and (min-width:768px) and (max-width:991px) {
-    .com1{
-        grid-template-columns: auto auto auto;
-    }
-    
-    
-}
-@media screen and (min-width:992px) and (max-width:1200px) {
-    .com1{
-        grid-template-columns: auto auto auto auto;
-    }
-    
-}
 .pos{
     position: relative;
     left: 22px;
     font-size: 2rem;
 
 }
-.valo{
-    background: url("Images/valo.png") no-repeat;
-    background-size: cover;
-}
-.pubg{
-    background: url("Images/pubg.jpg") no-repeat;
-    background-size: cover;
 
-}
-.fortnite{
-    background: url("Images/fortnite.png") no-repeat;
-    background-size: cover;
-}
-.go{
-    background: url("Images/go.jpg") no-repeat;
-    background-size: cover;
-}
-.free{
-    background: url("Images/free.jpg") no-repeat;
-    background-size: cover;
-}
-.gta{
-    background: url("Images/gta.jpg") no-repeat;
-    background-size: cover;
-}
-.impact{
-    background: url("Images/impact.jpg") no-repeat;
-    background-size: cover;
-}
-.apex{
-    background: url("Images/apex.jpg") no-repeat;
-    background-size: cover;
-}
-.ring{
-    background: url("Images/ring.jpg") no-repeat;
-    background-size: cover;
-}
-.mine{
-    background: url("Images/mine.webp") no-repeat;
-    background-size: cover;
-}
 .size:hover{
     transform: scale(0.9);
 }
@@ -837,16 +753,14 @@ body{
 #show_more1{
     height:50px;
     background-color:#24262B;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
     display: flex;
     justify-content: center;
-    margin: 5px;
+    margin: 0 !important;
    
 }
 
 #comss div{
-    margin: 5px;
+    margin: 16px;
 }
 #show_more2{
     display: inline-block;
@@ -858,21 +772,8 @@ body{
     background-color: #100f0f;
   
 }
-@media screen  and (max-width:1199px) and (min-width:576){
-    #show_more1{
-        display: none;
-    }
-
-}
-@media screen  and (min-width:1199px) {
-    .hide{
-        display: none;
-    }
-}
-@media screen  and (max-width:576px) {
-    .hide{
-        display: none;
-    }
+.hide{
+    display: none;
 }
 
 
