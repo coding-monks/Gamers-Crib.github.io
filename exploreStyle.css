@@ -19,6 +19,9 @@ body{
     z-index: 1000000;
     opacity: 1;
 }
+#navbarNav{
+    z-index: 3;
+}
 /* #exploreNav{
     border-bottom: 2px solid white;
 } */
@@ -245,6 +248,101 @@ body{
     text-align: center;
     margin-top: 7%;
 }
+
+/* responsive */
+@media (max-width: 600px){
+    #exploreNav a{
+        border: none;
+    }
+    #navBar2 .items{
+        font-size: 20px;
+    }
+    #filter{
+        width: 35%;
+        height: 35vh;
+    }
+    .detail{
+        width: 60%;
+    }
+    .filterCatTitle{
+        color: white;
+        font-weight: 100;
+        font-size: 15px ;
+    }
+    .filterContent[title] h2{
+        /* border-bottom: 1px solid rgb(67, 67, 67); */
+        font-weight: 300;
+        font-size: 20px;
+    }
+    .catSubTitles h3{
+        color: white;
+        text-align: center;
+        font-weight: 100;
+        font-size: 18px;
+        /* margin-bottom: 0; */
+    }
+    .gameRow{
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .gameContainer{
+        flex: none;
+        width: 45%;
+        margin: auto;
+    }
+    .gameTitle{
+        font-size: 10px;
+    }
+}
+@media(min-width: 600px) and (max-width:900px){
+    #exploreNav a{
+        border: none;
+    }
+    #navBar2 .items{
+        font-size: 25px;
+    }
+    #filter{
+        width: 25%;
+        height: 45vh;
+    }
+    .detail{
+        width: 70%;
+    }
+    .filterCatTitle{
+        color: white;
+        font-weight: 100;
+        font-size: 18px ;
+    }
+    .filterContent[title] h2{
+        /* border-bottom: 1px solid rgb(67, 67, 67); */
+        font-weight: 300;
+        font-size: 20px;
+    }
+    .catSubTitles h3{
+        color: white;
+        text-align: center;
+        font-weight: 100;
+        font-size: 18px;
+        /* margin-bottom: 0; */
+    }
+    .gameRow{
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .gameContainer{
+        flex: none;
+        width: 30%;
+        margin: auto;
+    }
+    .gameContainer:nth-last-of-type(1){
+        display: none;
+    }
+    .gameTitle{
+        font-size: 10px;
+    }
+}
+
+
 
 /* Footer Section */
 
